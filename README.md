@@ -19,7 +19,8 @@ Funcionalidades
 Cómo pueden usarlo los usuarios
 
     El usuario debe ingresar el texto a encriptar
-    ![imagen](https://github.com/user-attachments/assets/f3ac67c7-bfd3-4d43-8ab3-4d34a2dc9acb)
+    ![imagen](https://github.com/user-attachments/assets/bea6f528-febb-4024-9430-c2fe1c6bd270)
+
 
     Luego presione el boton Encriptar
 
