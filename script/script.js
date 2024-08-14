@@ -28,11 +28,24 @@ document.getElementById('copyButton').addEventListener('click', function() {
     });
 });
 
+//function encriptar() {
+//    const inputText = document.getElementById('inputText').value;
+//    const sanitizedText = inputText.toLowerCase().replace(/[^a-z0-9]/g, ''); // Elimina mayúsculas y caracteres especiales
+//    const encryptedText = btoa(inputText); // Encriptar usando Base64
+//    document.getElementById('outputText').innerText = encryptedText;
+//}
+
 function encriptar() {
     const inputText = document.getElementById('inputText').value;
-    const encryptedText = btoa(inputText); // Encriptar usando Base64
-    document.getElementById('outputText').innerText = encryptedText;
+    const sanitizedText = inputText.toLowerCase().replace(/[^a-z0-9]/g, ''); // Elimina mayúsculas y caracteres especiales
+    if (sanitizedText !== inputText) {
+        alert('Por favor, ingresa solo letras minúsculas y números.');
+    } else {
+        const encryptedText = btoa(sanitizedText); // Encriptar usando Base64
+        document.getElementById('outputText').innerText = encryptedText;
+    }
 }
+
 
 function desencriptar() {
     const encryptedText = document.getElementById('outputText').innerText;
