@@ -34,4 +34,6 @@ Donde los usuarios pueden encontrar ayuda sobre su proyecto
     - https://www.w3schools.com/html/
     - Uso de herramientas IA, como por ejemplo COPILOT
     
+Flujo de trabajo: https://trello.com/b/wlsOlNcf/trello-challengue
+
 Autores del proyecto: Miguel Juncá - 2024
